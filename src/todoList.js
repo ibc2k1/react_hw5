@@ -48,6 +48,7 @@ const List=()=>{
             ...this.props.todoItems,
             [event.currentTarget.name]: event.currentTarget.checked
         };
+        
         this.props.updateTodos(this.props.index, updateTodo);
         };
     
